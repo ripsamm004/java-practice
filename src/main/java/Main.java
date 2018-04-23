@@ -117,11 +117,19 @@ public class Main {
         ExampleGeneric exampleGeneric = new ExampleGeneric();
         exampleGeneric.test();
 
-        */
+
 
         System.out.println("Reflections: ");
         ExampleReflaction exampleReflaction = new ExampleReflaction();
         exampleReflaction.test();
+
+        */
+
+        System.out.println("Testing Multithreading with synchronize keyword");
+        ExampleConcurrentMultithreading exampleConcurrentMultithreading = new ExampleConcurrentMultithreading();
+        exampleConcurrentMultithreading.test();
+        System.out.println("Testing Multithreading DeadLock");
+        exampleConcurrentMultithreading.testDeadLock();
 
     }
 
