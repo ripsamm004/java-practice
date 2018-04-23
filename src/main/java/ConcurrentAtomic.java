@@ -2,6 +2,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Created by shiful on 22/04/2018.
+ *
+ * https://www.tutorialspoint.com/java_concurrency/concurrency_interthread_communication.htm
  */
 public class ConcurrentAtomic {
 

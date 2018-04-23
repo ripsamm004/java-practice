@@ -4,6 +4,12 @@
  * https://www.journaldev.com/1663/java-generics-example-method-class-interface?utm_source=website&utm_medium=sidebar&utm_campaign=RecommendedTutorials-Sidebar-Widget
  * https://docs.oracle.com/javase/tutorial/java/generics/index.html
  *
+ * https://docs.oracle.com/javase/tutorial/extra/generics/wildcards.html
+ *  public void drawAll(List<? extends Shape> shapes) {
+    ...
+    }
+
+ https://docs.oracle.com/javase/tutorial/extra/generics/methods.html
  */
 public class ExampleGeneric {
 

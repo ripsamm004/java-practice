@@ -1,5 +1,7 @@
 /**
  * Created by shiful on 19/04/2018.
+ *
+ * https://malalanayake.wordpress.com/2014/06/15/simple-linkedlist-implementation-with-java-generics/
  */
 public class LinkedListGenericImpl<T> {
 

@@ -17,6 +17,9 @@ public class Main {
         //sortSelectionSort(unsortedArray);
         //bubbleSortArray(unsortedArray);
         //linearSearch(dataArray, 100);
+
+
+        /*
         ExampleBinarySearch exampleBinarySearch = new ExampleBinarySearch();
         exampleBinarySearch.binarySearch(67);
 
@@ -113,6 +116,12 @@ public class Main {
         System.out.println("TESTING ExampleGeneric : ");
         ExampleGeneric exampleGeneric = new ExampleGeneric();
         exampleGeneric.test();
+
+        */
+
+        System.out.println("Reflections: ");
+        ExampleReflaction exampleReflaction = new ExampleReflaction();
+        exampleReflaction.test();
 
     }
 
