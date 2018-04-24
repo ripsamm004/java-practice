@@ -123,13 +123,17 @@ public class Main {
         ExampleReflaction exampleReflaction = new ExampleReflaction();
         exampleReflaction.test();
 
-        */
+
 
         System.out.println("Testing Multithreading with synchronize keyword");
         ExampleConcurrentMultithreading exampleConcurrentMultithreading = new ExampleConcurrentMultithreading();
         exampleConcurrentMultithreading.test();
         System.out.println("Testing Multithreading DeadLock");
         exampleConcurrentMultithreading.testDeadLock();
+*/
+        System.out.println("JAVA 8 Features testing....");
+        ExampleJava8 exampleJava8 = new ExampleJava8();
+        exampleJava8.test();
 
     }
 
