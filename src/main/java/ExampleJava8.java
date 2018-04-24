@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.stream.Stream;
 
 /**
  * Created by shiful on 23/04/2018.
@@ -40,11 +41,11 @@ public class ExampleJava8 {
         MyConsumer action = new MyConsumer();
         myList.forEach(action);
 
-        // LAMDA
+        // LAMDA : With the help of lambda expression we can replace Anonymous inner class
+
         myList.forEach(i->System.out.println(i));
 
         MyClass myClass = new MyClass();
-
 
     }
 }

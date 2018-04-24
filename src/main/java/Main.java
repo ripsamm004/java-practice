@@ -130,10 +130,14 @@ public class Main {
         exampleConcurrentMultithreading.test();
         System.out.println("Testing Multithreading DeadLock");
         exampleConcurrentMultithreading.testDeadLock();
-*/
+
         System.out.println("JAVA 8 Features testing....");
         ExampleJava8 exampleJava8 = new ExampleJava8();
-        exampleJava8.test();
+        exampleJava8.test();*/
+
+        System.out.println("JAVA 8 Features testing stream....");
+        ExampleJava8Stream exampleJava8Stream = new ExampleJava8Stream();
+        exampleJava8Stream.test();
 
     }
 
